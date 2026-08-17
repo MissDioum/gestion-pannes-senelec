@@ -1,4 +1,4 @@
-FROM php:8.2-apache
+FROM php:8.3-apache
 
 # Extensions systeme + PHP necessaires (dont pdo_pgsql pour PostgreSQL)
 RUN apt-get update && apt-get install -y \
